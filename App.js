@@ -12,12 +12,13 @@ export default class App extends React.Component {
             backgroundColor="#2f96ab"
             barStyle="light-content"
        />
+
        <Routes/>
         </View>
     );
   }
 }
-#Oscar
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
