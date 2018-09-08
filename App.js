@@ -17,7 +17,7 @@ export default class App extends React.Component {
     );
   }
 }
-
+#Oscar
 const styles = StyleSheet.create({
   container: {
     flex: 1,
