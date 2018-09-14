@@ -5,12 +5,15 @@ import  Form from '../components/Form';
 
 import {Actions} from 'react-native-router-flux';
 
+import { KeyboardAvoidingView } from 'react-native';
+
 export default class Login extends React.Component {
     signup(){
       Actions.signup()
     }
     render(){
       return(
+        <KeyboardAvoidingView style={styles.container} behavior="padding" enabled>
           <View style={styles.container}>
              <Logo/>
              <Form type="Login"/>
@@ -19,11 +22,7 @@ export default class Login extends React.Component {
               <TouchableOpacity onPress={this.signup}><Text style={styles.signupButton}> Registrate</Text></TouchableOpacity>
              </View>
           </View>
-
-
-
-
-
+          </KeyboardAvoidingView>
       );
     }
 }
