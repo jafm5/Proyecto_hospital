@@ -6,6 +6,7 @@ import  Form2 from '../components/Form2';
 export default class Signup extends React.Component {
     render(){
       return(
+        
           <ScrollView >
               <Logo2/>
               <Form2 type="Ingresar"/>

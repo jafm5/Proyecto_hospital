@@ -7,6 +7,8 @@ import {Actions} from 'react-native-router-flux';
 import { KeyboardAvoidingView } from 'react-native';
 
 
+import { KeyboardAvoidingView } from 'react-native';
+
 export default class Login extends React.Component {
     signup(){
       Actions.signup()
@@ -22,10 +24,9 @@ export default class Login extends React.Component {
               <TouchableOpacity onPress={this.signup}><Text style={styles.signupButton}> Registrate</Text></TouchableOpacity>
              </View>
           </View>
+
+
 </KeyboardAvoidingView>
-
-
-
 
       );
     }
